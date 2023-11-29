@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-// Concrete Subject: NewsAgency
 public class NewsAgency implements Subject {
     private List<Observer> subscribers = new ArrayList<>();
 
@@ -22,7 +21,6 @@ public class NewsAgency implements Subject {
         }
     }
 
-    // Method to simulate publishing breaking news
     public void publishNews(String news) {
         System.out.println("Breaking News: " + news);
         notifySubscribers(news);

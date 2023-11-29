@@ -1,4 +1,3 @@
-// Concrete Observer: Subscriber
 public class Subscriber implements Observer {
     private String name;
 
